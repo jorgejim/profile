@@ -10,16 +10,61 @@ body {
 	text-align: center;
 }
 
-
-#mainContent {
+#resumeContent {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: xx-large;
 	font-weight: bold;
 	color: #000000;
-	background-image: url("http://drive.google.com/uc?export=view&id=0B-l0wSrvLRLPaVZYVG55MUZyZHc");
 	background-size: cover;
 	border-radius: 4px;
 	margin: -22px;
 	text-align: center;
 	min-height: 100%;
+}
+
+#resume {
+	display:none;
+}
+
+.Resume {
+	margin-top: -22px;
+	background-color: #fffff0;
+	clear:both;
+	height:100%;
+	width:100%;
+}
+
+#Title {
+	color:black;
+	text-align: center;
+}
+
+#line {
+	border-width: thick;
+	border: double red;
+	border-radius: 40%
+}
+
+.sections {
+	text-align: left;
+	width: 90%;
+    position: relative;
+	display:inline-block;
+}
+
+h3 {
+    display:inline-block;
+    font-family: Verdana;
+    padding-right: 10%;
+}
+
+p {
+    /*padding-left: 10%;
+    padding-right: 10%;*/
+    font-family: Verdana;
+}
+
+#dates {
+    display: inline-block;
+    text-align: right;
 }
